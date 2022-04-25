@@ -1,8 +1,0 @@
-package com.group1.theBookSpot;
-
-public interface Subject {
-
-    public void registerObserver (Observer observer);
-    public void removeObserver (Observer observer);
-    public void notifyObservers ();
-}
